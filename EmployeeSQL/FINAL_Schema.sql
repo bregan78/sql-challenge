@@ -67,7 +67,7 @@ CREATE TABLE public.employees (
     first_name character varying NOT NULL,
     last_name character varying NOT NULL,
     sex character varying NOT NULL,
-    hire_date character varying NOT NULL
+    hire_date date NOT NULL
 );
 
 
